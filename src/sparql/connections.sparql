@@ -1,0 +1,13 @@
+PREFIX base:        <http://example.com/tutorial2/vocabulary/base#>
+PREFIX mission:     <http://example.com/tutorial2/vocabulary/mission#>
+
+
+
+
+
+
+SELECT DISTINCT ?j1_id
+WHERE {
+	?j1 a mission:Junction ;
+	base:hasIdentifier ?j1_id;
+}
