@@ -29,6 +29,6 @@ description <http://example.com/tutorial2/description/missions#> as missions {
 		mission:deploys components:lander-launch-system
 		mission:deploys components:lander-spacecraft
 		mission:deploys components:lander-ground-data-system
-		mission:deploys components:mission-operations-system   
+		mission:deploys components:mission-operations-system
 	]	
 }
